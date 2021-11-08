@@ -1,0 +1,202 @@
+package selfLearning;
+
+public class JavaOperators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//second
+		
+		 System.out.println("Java operator");
+		int x=100+50;
+		int sum1 = 100+50;
+		int sum2 = sum1+250;
+		int sum3 = sum2+sum2;
+		
+	    System.out.println(sum1);
+	    System.out.println(sum2);
+	    System.out.println(sum3);
+	    System.out.println(x);
+	    
+	    
+	    //ARITHMETIC OPERATORS
+		 System.out.println("\nARITHMETIC OPERATOR");
+	    int y=50;
+	    int z=2;
+	    
+	    int addition=y+z;
+	    int substraction=y-z;
+	    int multiplication=y*z;
+	    int division=y/z;
+	    int modulus=y%z;    //returns the division remainder    
+	    //int increment ++z;  //increase value by 1
+	   // int decrement --z;  //decrease value by 1
+
+	    System.out.println(addition);
+	    System.out.println(substraction);
+	    System.out.println(multiplication);
+	    System.out.println(division);
+	    System.out.println(modulus);
+	    
+	    System.out.println("\nARITHMETIC OPERATOR -increment/decrement");
+	    
+	    int increment=y;
+	    ++increment;
+	    System.out.println(increment);
+	    
+	    int decrement=x;
+	    --decrement;
+	    System.out.println(decrement);
+	    
+	    //java assignment operators
+	    System.out.println("\nASSIGNMENT OPERATOR");
+	    final int XX=10;
+	    int x1 = XX;
+	    y=5;
+	    System.out.println("X1=" + XX);
+	    System.out.println("y=" + y+ "\n");
+	    
+	    //+=
+	    System.out.println("\"operator x1 += y\"");
+	    x1 =XX + y;  
+	    System.out.println(XX);
+	    
+	    //-=
+	    System.out.println("\"operator x1 -= y\"");
+	    x1 = XX- y;
+	    System.out.println(x1);
+	    
+	    //*=
+	    System.out.println("\"operator x1 *= y\"");
+	    x1 = XX*y;
+	    System.out.println(x1);
+	    
+	    ///=
+	    System.out.println("\"operator x1 /= y\""); // for\*\*
+	    x1 = XX/y;
+	    System.out.println(x1);
+	    
+	  //%=
+	    System.out.println("\"operator x1 %= y\"");
+	    x1 =XX % y;  
+	    System.out.println(x1);
+	    
+	    //&=
+	    System.out.println("\"operator x1 &= y\"");
+	    x1 =XX& y;
+	    System.out.println(x1);
+	    
+	    //|=
+	    System.out.println("\"operator x1 |= y\"");
+	    x1= XX|y;
+	    System.out.println(x1);
+	    
+	    //^=
+	    System.out.println("\"operator x1 ^= y\""); // for\*\*
+	    x1 =XX^ y;
+	    System.out.println(x1);
+	    
+	    //JAVA COMPARISON OPERATORS
+	    System.out.println("\nJAVA COMPARISON OPERATOR");
+	    int x2=1;
+	    int y2=5;
+	    System.out.println("\nWhen x2 = "+ x2 + " and y =" + y);
+	    
+	    //==
+	    System.out.print("is x2 == y2: ");
+	    System.out.println(x2 == y2);
+	    
+	  //!=
+	    System.out.print("is x2 != y2: ");
+	    System.out.println(x2 != y2);
+	    
+	  //>
+	    System.out.print("is x2 > y2: ");
+	    System.out.println(x2 > y2);
+	   
+	    
+	    //<
+	    System.out.print("is x2 < y2: ");
+	    System.out.println(x2 < y2);
+	    
+	  //>=
+	    System.out.print("is x2 >= y2: ");
+	    System.out.println(x2 >= y2);
+	    
+	  //<=
+	    System.out.print("is x2 <= y2: ");
+	    System.out.println(x2 <= y2);
+	    
+	    //JAVA LOGICAL OPERATOR
+	    System.out.println("\nJAVA LOGICAL OPERATOR");
+	    
+	    int x3=5;
+	    
+	    System.out.println(x3 > 3 && x3 < 10); // returns true because 5 is greater than 3 AND 5 is less than 10
+	    
+	    System.out.println(x3 > 3 || x3 > 10); //tru if one of it true
+	    
+	    System.out.println(!(x3 > 3 && x3 < 10));// false if its true and otherwise
+	    
+	    
+	   /*
+	    * 
+	    * Java operator
+			150
+			400
+			800
+			150
+			
+			ARITHMETIC OPERATOR
+			52
+			48
+			100
+			25
+			0
+			
+			ARITHMETIC OPERATOR -increment/decrement
+			51
+			149
+			
+			ASSIGNMENT OPERATOR
+			X1=10
+			y=5
+			
+			"operator x1 += y"
+			10
+			"operator x1 -= y"
+			5
+			"operator x1 *= y"
+			50
+			"operator x1 /= y"
+			2
+			"operator x1 %= y"
+			0
+			"operator x1 &= y"
+			0
+			"operator x1 |= y"
+			15
+			"operator x1 ^= y"
+			15
+			
+			JAVA COMPARISON OPERATOR
+			
+			When x2 = 1 and y =5
+			is x2 == y2: false
+			is x2 != y2: true
+			is x2 > y2: false
+			is x2 < y2: true
+			is x2 >= y2: false
+			is x2 <= y2: true
+			
+			JAVA LOGICAL OPERATOR
+			true
+			true
+			false
+
+	    */
+	    
+	    
+	    
+	}
+
+}
