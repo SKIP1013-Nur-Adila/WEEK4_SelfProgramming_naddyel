@@ -1,0 +1,142 @@
+package selfLearning;
+
+public class JavaBooleans {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		boolean isJavaFun = true;
+		boolean isFishTasty = false;
+		System.out.println(isJavaFun);     // Outputs true
+		System.out.println(isFishTasty);   // Outputs false
+		
+		int x = 10;
+		int y = 9;
+		System.out.println(x > y); // returns true, because 10 is higher than 9
+		
+		System.out.println(10 > 9); // returns true, because 10 is higher than 9
+		
+		int x1 = 10;
+		System.out.println(x1 == 10); // returns true, because the value of x is equal to 10
+		
+		System.out.println(10 == 15); // returns false, because 10 is not equal to 15
+		
+		
+//JAVA IF ELSE
+		
+		//TRUE
+		if (20 > 18) {
+			  System.out.println("20 is greater than 18");
+			}
+		
+		//FALSE
+		if (20 < 18) {
+			  System.out.println("20 is greater than 18");
+			}  
+		//DOESNT GENERATE AS IT IS FALSE
+		
+		//
+		int x2 = 20;
+		int y2 = 18;
+		System.out.println("\nWhen x2: "+x2+" and y2= "+y2+" ");
+		if (x2 > y2) {
+		  System.out.println("x2 is greater than y2");
+		}
+		
+		
+		//EXPORT TRUE AND FALSE
+		int time = 20;
+		System.out.println("\nWhen time: "+time+"");
+		
+		if (time < 18) {
+		  System.out.println("Good day.");
+		} else {
+		  System.out.println("Good evening.");
+		}// Outputs "Good evening."
+		
+		//The else if statement
+		//more than 2 condition
+		
+		int time1 = 22;
+		System.out.println("\nWhen time: "+time1+"");
+		if (time1 < 10) {
+		  System.out.println("Good morning.");
+		} else if (time1 < 20) {
+		  System.out.println("Good day.");
+		} else {
+		  System.out.println("Good evening.");
+		}
+		// Outputs "Good evening."
+		
+		//Short Hand If...Else (Ternary Operator)
+		
+		int time3 = 20;
+		String result = (time3 < 18) ? "Good day." : "Good evening.";
+		System.out.println(result);
+
+	//JAVA SWITCH
+		int day = 4;
+		switch (day) {
+		  case 1:
+		    System.out.println("Monday");
+		    break;
+		  case 2:
+		    System.out.println("Tuesday");
+		    break;
+		  case 3:
+		    System.out.println("Wednesday");
+		    break;
+		  case 4:
+		    System.out.println("Thursday");
+		    break;
+		  case 5:
+		    System.out.println("Friday");
+		    break;
+		  case 6:
+		    System.out.println("Saturday");
+		    break;
+		  case 7:
+		    System.out.println("Sunday");
+		    break;
+		}
+		// Outputs "Thursday" (day 4)
+//THE DEFAULT KEYWORD
+		int day2 = 4;
+		switch (day2) {
+		  case 6:
+		    System.out.println("Today is Saturday");
+		    break;
+		  case 7:
+		    System.out.println("Today is Sunday");
+		    break;
+		  default:
+		    System.out.println("Looking forward to the Weekend");
+		}
+		// Outputs "Looking forward to the Weekend"
+		
+//JAVA WHILE LOOP
+		
+		int i = 0;
+		while (i < 5) {    
+		  System.out.println(i);    //loops through block of ccodes as condition is true
+		  i++;
+		}
+//THE DO/WHILE LOOP
+		int j = 0;
+		do {
+		  System.out.println(j);
+		  j++;
+		}
+		while (i < 5);
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
