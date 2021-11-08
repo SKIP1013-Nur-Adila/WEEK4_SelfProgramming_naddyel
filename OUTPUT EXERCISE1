@@ -1,0 +1,19 @@
+State integer value: 22
+State double value: 33.33
+Value of integer and value of double is '22' and '33.33'
+
+
+
+Integer value using nextInt() increment by 1: 23
+Double value using nextDouble() decrement by 1: 32.33
+
+Integer value using nextInt() Increment by 5: 28
+Double value using nextDouble() decrement by 5: 27.33
+
+Integer value using nextInt() increment by 8: 36
+Double value using nextDouble() decrement by 8: 19.33
+
+Integer value Using nextInt() mod 10 : 6
+Double value Using nextDouble() mod 10 : 9.329999999999998
+
+The power is 1.8203343571573928E7
