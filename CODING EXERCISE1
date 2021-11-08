@@ -1,0 +1,109 @@
+package selfLearning;
+
+import java.util.Scanner;
+
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*System.out.println ("\"Thank you all for " + "coming to my home \n tonight,\" he said "+"mysteriously.");
+		
+		System.out.println("Saya tidak kemana mana " + "dan hanya berada di \"rumah\" sahaja");
+		*/
+		
+		
+		
+		/*
+		//without user input
+		int m = 4;
+		System.out.println("Value of m: "+ m);
+	
+		int result =3* (++m);
+		
+		*/
+		
+		Scanner sc= new Scanner(System.in);
+		
+		
+		//FIRST
+		int numInt;
+		double numDouble;	
+		
+		System.out.print("State integer value: ");
+		numInt=sc.nextInt(); 
+		
+
+		System.out.print("State double value: ");
+		numDouble=sc.nextInt(); 
+		
+		//System.out.println("\"Value of integer and value of double: \" + \" + numInt + \" + \"numDouble\"" );
+		
+		
+		System.out.print("Value of integer and value of double is ");
+		System.out.print("'" + numInt + "'" + " and " + "'"+ numDouble + "'");
+		
+		System.out.println("\n\n");
+		
+		//SECOND
+		
+		numInt++;
+		System.out.println("\nInteger value using nextInt() increment by 1: " + numInt);
+		
+		numDouble--;
+		System.out.println("Double value using nextDouble() decrement by 1: " + numDouble);		
+		
+		
+		//THIRD
+		
+		numInt +=5;
+		numDouble -=5;
+		
+		System.out.println("\nInteger value using nextInt() Increment by 5: " + numInt);
+		System.out.println("Double value using nextDouble() decrement by 5: " + numDouble);		
+		
+		//FOURTH
+		
+		numInt +=8;
+		numDouble -=8;
+				
+		System.out.println("\nInteger value using nextInt() increment by 8: " + numInt);
+		System.out.println("Double value using nextDouble() decrement by 8: " + numDouble);	
+		
+		//FIFTH
+		
+		numInt= numInt % 10;
+		numDouble=numDouble %10;
+		System.out.println("\nInteger value Using nextInt() mod 10 : " + numInt);
+		System.out.println("Double value Using nextDouble() mod 10 : " + numDouble);
+		
+		double x;
+		x=Math.pow(numInt,numDouble);
+		System.out.println("\nThe power is " + x);
+		
+		/*
+		 * my output is:
+		 *  
+		 * State integer value: 33
+		State double value: 33
+		Value of integer and value of double is '33' and '33.0'
+
+
+
+		Integer value using nextInt() increment by 1: 34
+		Double value using nextDouble() decrement by 1: 32.0
+
+		Integer value using nextInt() Increment by 5: 39
+		Double value using nextDouble() decrement by 5: 27.0
+
+		Integer value using nextInt() increment by 8: 47
+		Double value using nextDouble() decrement by 8: 19.0
+
+		Integer value Using nextInt() mod 10 : 7
+		Double value Using nextDouble() mod 10 : 9.0
+
+		The power is 4.0353607E7
+		 */
+
+	}
+
+}
