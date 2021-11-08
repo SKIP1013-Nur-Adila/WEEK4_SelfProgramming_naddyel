@@ -34,7 +34,7 @@ public class Exercise1 {
 		
 
 		System.out.print("State double value: ");
-		numDouble=sc.nextInt(); 
+		numDouble=sc.nextDouble(); 
 		
 		//System.out.println("\"Value of integer and value of double: \" + \" + numInt + \" + \"numDouble\"" );
 		
